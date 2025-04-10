@@ -1,35 +1,73 @@
-# group-email-notifier_for_buddypress
-Send emails to all group members when new activity is posted in BuddyPress groups.
-
 === Group email notifier for buddypress ===
-Contributors: alfeizar
-Tags: buddypress, email, notifier, notifications
-Requires at least: 4.7
-Tested up to: 6.7
-Stable tag: 1.0
-License: GPLv3
-License URI: https://www.gnu.org/licenses/gpl-3.0.html
+Contributors: alfeizar  
+Donate link: https://www.paypal.com/donate/?hosted_button_id=JCHW87M9WKABE  
+Tags: buddypress, email, notifications, rtmedia, group activity  
+Requires at least: 5.0  
+Tested up to: 6.7  
+Requires PHP: 7.0  
+Stable tag: 1.1.0  
+License: GPLv3 or later  
+License URI: https://www.gnu.org/licenses/gpl-3.0.html  
 
 == Short Description ==
-Este plugin envía correos electrónicos a todos los miembros de un grupo de BuddyPress cuando se publica una nueva actividad en ese grupo.
+
+Envía notificaciones por correo electrónico a todos los miembros del grupo en BuddyPress cuando se publica una nueva actividad, incluyendo imágenes, vídeos, enlaces o solo texto.
 
 == Description ==
-Este plugin envía correos electrónicos a todos los miembros de un grupo de BuddyPress cuando se publica una nueva actividad en ese grupo. Incluye enlaces, videos y fotos de rtMedia en los correos.
+
+Este plugin permite que todos los miembros de un grupo en BuddyPress reciban notificaciones por correo electrónico cada vez que se publica una nueva actividad en el grupo. A diferencia del comportamiento por defecto, no solo los administradores recibirán la notificación.
+
+🟢 **Características:**
+- Soporta actividades con solo texto, enlaces, vídeos (como YouTube) e imágenes subidas con rtMedia.
+- Personaliza el contenido del correo para mostrar el autor, el grupo, y vista previa del contenido.
+- Compatible con `WP HTML Mail` y otros editores de plantillas de correo.
+- Ligero y fácil de usar: no requiere configuración adicional.
+
+🧩 Ideal para comunidades, grupos de formación, foros privados y redes sociales internas.
 
 == Installation ==
-1. Subir la carpeta del plugin a la carpeta `/wp-content/plugins/` o instalar a través del panel de administración de WordPress.
-2. Activar el plugin a través del menú "Plugins" en WordPress.
-3. Asegúrate de que los grupos en BuddyPress están configurados para enviar notificaciones por correo electrónico.
 
-== Changelog ==
-= 1.0 =
-* Primera versión.
-* Envía correos con actualizaciones de actividad en grupos de BuddyPress.
+1. Sube la carpeta del plugin al directorio `/wp-content/plugins/` o instala directamente desde el repositorio de plugins de WordPress.
+2. Activa el plugin desde el menú ‘Plugins’ de WordPress.
+3. ¡Listo! El plugin comenzará a enviar notificaciones automáticas a todos los miembros del grupo cuando se publique una actividad.
+
+== Donate ==
+
+¿Te ha sido útil este plugin? Puedes apoyar su desarrollo haciendo una donación:
+
+👉 [https://www.paypal.com/donate/?hosted_button_id=JCHW87M9WKABE](https://www.paypal.com/donate/?hosted_button_id=JCHW87M9WKABE)
+
+¡Gracias por tu apoyo!
 
 == Frequently Asked Questions ==
-= ¿Cómo puedo personalizar los correos? =
-Este plugin no tiene opciones de personalización directa, pero puedes modificar la plantilla de correo en el archivo PHP del plugin.
+
+= ¿Cómo funciona? =  
+Intercepta las publicaciones en los grupos de BuddyPress y envía una notificación por correo a todos los miembros del grupo con los detalles de la actividad.
+
+= ¿Necesito configurar algo? =  
+No. El plugin funciona automáticamente después de activarlo.
+
+= ¿Es compatible con rtMedia? =  
+Sí, el plugin detecta imágenes y muestra una vista previa o un enlace a ellas en el correo.
+
+== Screenshots ==
+
+1. Ejemplo de correo enviado con una imagen rtMedia.
+2. Ejemplo de correo con solo texto.
+3. Correo con enlace y vídeo.
+
+== Changelog ==
+
+= 1.0.0 =
+* Versión inicial del plugin.
+* Envía correos con actividades de grupo a todos los miembros.
+* Soporte para rtMedia, vídeos de YouTube, enlaces y texto.
 
 == Upgrade Notice ==
-= 1.0 =
-Primera versión.
+= 1.1.0 =
+Muestra las imágenes y miniaturas en el correo a suscriptores del grupo
+
+
+== License ==
+
+This plugin is free software licensed under the GPLv3 (or later). See https://www.gnu.org/licenses/gpl-3.0.html for full license text.
