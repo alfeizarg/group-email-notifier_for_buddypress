@@ -67,7 +67,7 @@ Sí, el plugin detecta imágenes y muestra una vista previa o un enlace a ellas 
 = 1.1.0 =
 Muestra las imágenes y miniaturas en el correo a suscriptores del grupo
 Ir a la version 1.1.0
-https://alfeizar.net/group-email-notifier-for-buddypress/
+[https://alfeizar.net/group-email-notifier-for-buddypress/](https://alfeizar.net/producto/group-email-notifier-for-buddypress/)
 
 == License ==
 
