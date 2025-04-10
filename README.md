@@ -5,7 +5,7 @@ Tags: buddypress, email, notifications, rtmedia, group activity
 Requires at least: 5.0  
 Tested up to: 6.7  
 Requires PHP: 7.0  
-Stable tag: 1.1.0  
+Stable tag: 1.0.0  
 License: GPLv3 or later  
 License URI: https://www.gnu.org/licenses/gpl-3.0.html  
 
@@ -66,7 +66,8 @@ Sí, el plugin detecta imágenes y muestra una vista previa o un enlace a ellas 
 == Upgrade Notice ==
 = 1.1.0 =
 Muestra las imágenes y miniaturas en el correo a suscriptores del grupo
-
+Ir a la version 1.1.0
+https://alfeizar.net/group-email-notifier-for-buddypress/
 
 == License ==
 
